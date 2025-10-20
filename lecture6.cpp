@@ -9,7 +9,7 @@ int main(){
     cout << a * b << endl;
     float result = a / b;
     cout << result << endl;
-    short int c = -32769;
+    short int c = 32770;
     cout << c << endl;
     int result2= static_cast<int>(6.7)/ 6;
     int d, e, f, g;
