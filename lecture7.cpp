@@ -12,6 +12,7 @@ int main() {
     
     cout << "sizeof(string object): " << sizeof(yourName) << " bytes\n";
     cout<< "length of your name: " << yourName.length() << " characters\n";
-    cout<<"sqrt of 25"<< " is " << sqrt(25) << '\n';
+    int rest = sqrt(25);
+    rand();
     return 0;
 }
