@@ -25,7 +25,9 @@ int main(){
         cout << "F";
     }
        
-    cout << "good luck";    
+    cout << "good luck";
+    char a = 'B';
+    a *result;
 
     return 0;
 }
