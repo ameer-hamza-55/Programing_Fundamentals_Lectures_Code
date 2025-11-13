@@ -27,7 +27,7 @@ int main(){
     int y = 2 + add();
     cout<<"the sum is: "<< y << endl;
     display();
-   
+
 
     return 0;
 }
