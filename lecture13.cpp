@@ -10,15 +10,19 @@ double multiply(double a, double b){
     return result;
 
 }
+void display(){
+     cout<<"press 1 for addition"<<endl;
+    cout<<"press 2 for subtraction"<<endl;
+    cout<<"press 3 for multiplication"<<endl;
+}
+int a;
 int main(){
     float number1, number2;
     cout << "Enter first integer: ";
     cin >> number1;
     cout << "Enter second integer: ";
     cin >> number2;
-    cout<<"press 1 for addition"<<endl;
-    cout<<"press 2 for subtraction"<<endl;
-    cout<<"press 3 for multiplication"<<endl;
+   display();
     int choice;
     cout<<"Enter your choice: ";
     cin>> choice;
